@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# OS/editor files
+.DS_Store
+.vscode/
+
+# Generated outputs
+smolAgent/generated_answer.png
+generated_answer.png
+outputs/
